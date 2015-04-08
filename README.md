@@ -32,7 +32,7 @@ For video tutorials, [subscribe](https://www.youtube.com/channel/UC1UP5LiNNNf0a4
     * [adding a page](https://github.com/reagent-project/reagent-cookbook/tree/master/recipes/adding-a-page) | [Demo](http://rc-adding-a-page2.s3-website-us-west-1.amazonaws.com/) | [Video](https://www.youtube.com/watch?v=D7uwDUUngy0)
 	* [toggle class](https://github.com/reagent-project/reagent-cookbook/tree/master/recipes/toggle-class) | [Demo](http://rc-toggle-class2.s3-website-us-west-1.amazonaws.com/) | [Video](https://www.youtube.com/watch?v=WcMrLhW20zg)
 * Re-frame
-    * [re-frame-input](https://github.com/reagent-project/reagent-cookbook/tree/master/recipes/toggle-class) | [Demo](http://rc-re-frame-input.s3-website-us-east-1.amazonaws.com/)
+    * [re-frame-input](https://github.com/reagent-project/reagent-cookbook/tree/re-frame-recipes/recipes/re-frame-input) | [Demo](http://rc-re-frame-input.s3-website-us-east-1.amazonaws.com/)
 * Sidebar
     * [Simple Sidebar](https://github.com/reagent-project/reagent-cookbook/tree/master/recipes/simple-sidebar) | [Demo](http://rc-simple-sidebar.s3-website-us-west-1.amazonaws.com/)
 * Tables

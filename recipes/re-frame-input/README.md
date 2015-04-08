@@ -100,3 +100,17 @@ We are creating a map,`initial-state`, that we use in the `:initialize-db` handl
 ;; ATTENTION /\
        ])))
 ```
+
+# Usage
+
+Compile cljs files.
+
+```
+$ lein cljsbuild once
+```
+
+Start a server.
+
+```
+$ lein ring server
+```
