@@ -15,7 +15,7 @@ You want to use an input element with [re-frame](https://github.com/Day8/re-fram
 5. Register subscription to `:name` in our "database"
 6. Create a handler for updating `:name` in our "database"
 7. Subscribe to `:name` in the `home` component
-8. Creeate an input element that will dispatch the `:update-name` handler on-change. Also, create a div to display the updated name
+8. Create an input element that will dispatch the `:update-name` handler on-change. Also, create a div to display the updated name
 
 #### Step 1: Create a new project
 
@@ -56,7 +56,7 @@ We are creating a map,`initial-state`, that we use in the `:initialize-db` handl
 (re-frame/dispatch-sync [:initialize-db])
 ```
 
-#### Step 5: Regsiter subscription to `:name` in our "database"
+#### Step 5: Register subscription to `:name` in our "database"
 
 ```clojure
 (re-frame/register-sub
@@ -65,7 +65,7 @@ We are creating a map,`initial-state`, that we use in the `:initialize-db` handl
    (reaction (:name @db))))
 ```
 
-#### Step 6: Create a handler for updating `:name` in our "databse"
+#### Step 6: Create a handler for updating `:name` in our "database"
 
 ```clojure
 (re-frame/register-handler
@@ -85,7 +85,7 @@ We are creating a map,`initial-state`, that we use in the `:initialize-db` handl
        ])))
 ```
 
-#### Step 8: Creeate an input element that will dispatch the `:update-name` handler on-change. Also, create a div to display the updated name
+#### Step 8: Create an input element that will dispatch the `:update-name` handler on-change. Also, create a div to display the updated name
 
 ```clojure
 (defn home []
